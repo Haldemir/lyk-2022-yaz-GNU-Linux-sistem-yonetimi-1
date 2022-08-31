@@ -7,7 +7,7 @@ Yanlış bilgi, gözümden kaçan hatalar, yazım yanlışları veya tam açıkl
 
 <br></br>
 ## Teşekkürler
-Bu imkanı bize sağlayan ve yapımda emeği geçen herkese teşekkürlerimi iletiyorum. Ayrıca birbirinden eğlenceli **Ahmetcan İrdem** ve **Ali Sezişli** hocalarıma teşekkür ediyorum.
+Bu imkanı bize sağlayan ve yapımda emeği geçen herkese teşekkürlerimi iletiyorum. Ayrıca birbirinden eğlenceli **Ahmetcan İrdem**, **Ali Sezişli** ve **Osman Orçun Serçe** hocalarıma teşekkür ediyorum.
 
 ## To-Do:
 - [ ] Daha sonra örnekler arttırılabilir.
