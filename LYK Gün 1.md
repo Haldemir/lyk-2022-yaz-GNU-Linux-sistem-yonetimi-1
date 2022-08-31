@@ -9,17 +9,17 @@ Ee peki Secure Shell falan dedik. Peki nedir bu Shell ? Türkçe olarak kabuk an
 
 Kurduğumuz sanal makinelere sadece ana makinemizden ssh ile bağlantı yapabilmek için Virtualbox’ın Host Network Managerından host-only internet adaptörü oluşturduk. Sonra sanal makinelerimizin ağ ayarlarından bu oluşturduğumuz adaptörü Host-only adaptör seçeneğinden bağladık.
 
-Uzaktan bağlantı kurabilmemiz için makinelere ıp adresi almaya çalıştık.
+Uzaktan bağlantı kurabilmemiz için makinelere ip adresi almaya çalıştık.
 
-**Rocky** kendi kendine DHCP aracılığıyla kendine ip atayabiliyor ama kıl olan **Debian** bu işlemi kendi kendine yapamıyor. Bu yüzden makine ağ ayarlarından default olarak gelen NAT seçeneği seçili olan adaptörü devre dışı bırakıyoruz, daha sonra makineden DHCP'den ip alıyoruz.
+**Rocky** kendi kendine DHCP aracılığıyla kendine ip atayabiliyor ama **Debian** bu işlemi kendi kendine yapamıyor. Bu yüzden makine ağ ayarlarından default olarak gelen NAT seçeneği seçili olan adaptörü devre dışı bırakıyoruz, daha sonra makineden DHCP'den ip alıyoruz.
 
 ```bash
 $ip a
-görüldüğü üzere sadece localhost var
+- görüldüğü üzere sadece localhost var
 $dhclient
-ip dağıtılma işlemi gerçekleştirildi kontrol edelim
+- ip dağıtılma işlemi gerçekleştirildi kontrol edelim
 $ip a
-görüldüğü üzere artık bu makinemizin de internete çıkabilmesi için bir ip adresi var.
+- artık bu makinemizin de internete çıkabilmesi için bir ip adresi var.
 ```
 
 ip adresi alım işlemi gerçekleştikten sonra makinemizi internete çıkabilir hale geri getirebiliriz. ( Devre dışı bıraktığımız adaptörü aktifleştirerek. )
@@ -42,30 +42,31 @@ Popüler ve Özgür yazılım olsun bizim olsun :d
 $ssh -l <kullanıcı_adı> <makine_adresi> or $ssh <kullanıcı_adı>@<makine_adresi>
 ```
 
+---
+
 # Temel Linux Komutları
 
 TO-DO: fotolarla daha çekici hale getirilebilir
 
-Linux da her şey bir dosyadır.
+Linux'ta her şey bir dosyadır.
 
-Başında nokta varsa gizli dosya olmuş olur tabi ne kadar gizli ? normalde gözükmesini istediğimizi dosyaların başına nokta atarak gizleyebiliriz.
+Başında nokta varsa gizli dosya olmuş olur tabi ne kadar gizli :d ? normalde gözükmesini istemediğimiz dosyaların başına nokta atarak gizleyebiliriz.
 
 ```bash
 $whoami
-sistemde hangi kullanıcıda oturum açıldığını söyler
+- sistemde hangi kullanıcıda oturum açıldığını söyler
 ```
 
 ```bash
 $pwd
-Print Working Directory - açılımından anlaşıldığı üzere bulunduğumuz dizini gösterir
+- Print Working Directory - açılımından anlaşıldığı üzere bulunduğumuz dizini gösterir
 ```
 
 ```bash
 $man
-Manual - eğer çalıştırılan komutun sistemde manuel sayfası bulunuyorsa onu gösterir.
-Daha da açıklamak gerekirse insanlar dosyalarının veya uygulamalarının ne işe yaradığını,
-hangi parametreleri aldığını veya parametrelerin ne işe yaradığını içeren bir döküman 
-açılır.
+- Manual - eğer çalıştırılan komutun sistemde manuel sayfası bulunuyorsa onu gösterir. Daha da açıklamak gerekirse
+	   insanlar dosyalarının veya uygulamalarının ne işe yaradığını, hangi parametreleri aldığını veya parametrelerin 
+	   ne işe yaradığını içeren bir döküman açılır.
 ```
 
 ### Ahmetcan hocanın da sık sık söylediği gibi takıldığın bi yerde “Bana bakma man’a bak” 😀
@@ -105,7 +106,7 @@ $ls -al
 hem bütün dosyaları göster ve hem de daha detaylı bir şekilde göster
 ```
 
-### Gizli dosyaları da listeledik anam bir de ne görelim . ve .. olmak üzere iki dosya daha gözüküyor ?
+### Gizli dosyaları da listeledik aman bir de ne görelim . ve .. olmak üzere iki dosya daha gözüküyor ?
 
 . bulunduğumuz dizini temsil ediyor ve .. bir üstteki dizini temsil ediyor.
 
