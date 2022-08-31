@@ -1,0 +1,1 @@
+# lyk-2022-yaz-gnu-linux-sistem-yonetimi-1
