@@ -11,39 +11,39 @@ Neden rm kullanırken normalden daha fazla dikkatli olmalıyız ? Linux’da w*n
 
 TO-DO:
 
-symbolick link
+&nbsp;&nbsp;symbolick link
 
-block special
+&nbsp;&nbsp;block special
 
-dosya türleri
+&nbsp;&nbsp;dosya türleri
 
-“-” standart dosyalar
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“-” standart dosyalar
 
-“l” sembolik link
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“l” sembolik link
 
-“d” directory
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“d” directory
 
-“c” character special
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“c” character special
 
-“b” block file
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“b” block file
 
-“s” socket
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“s” socket
 
-“p” pipe?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“p” pipe?
 
-dosya sistemleri
+&nbsp;&nbsp;dosya sistemleri
 
-ext4 → journal/jounal
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ext4 → journal/jounal
 
-fat32
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fat32
 
-exfat
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;exfat
 
-xfs
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;xfs
 
-zfs
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;zfs
 
-ntfs
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ntfs
 
 peki hangisini kullanıcaz? bakıcaz ne istiyoruz ve ona göre okuyuş şekillerini inceleyip işimize yarayanı kullanıcaz
 
@@ -80,21 +80,21 @@ kısmında istediğimiz kelimeyi kolayca aratabiliriz
 
 TO-DO:
 
-adduser
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;adduser
 
-useradd
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;useradd
 
-usermod
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;usermod
 
-userdel
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;userdel
 
-grouplu bir şeyler
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;grouplu bir şeyler
 
-groupmod
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;groupmod
 
-gruopadd
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gruopadd
 
-groupdel
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;groupdel
 
 ## İçinde metin bulunan dosyaları okumak için birkaç yol öğrendik peki
 
