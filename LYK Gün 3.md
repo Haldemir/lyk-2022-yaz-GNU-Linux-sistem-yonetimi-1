@@ -14,9 +14,7 @@ Peki $LANG değişkenini değiştirdikten sonra açılan uygulamalar türkçe di
 
 ## SUDO
 
-Buraya not düşmek istiyorum, sudonun açılımını ve aslında ne amaçla kullanıldığını öğrendiğiniz zaman hayel kırıklığına uğrayabilirsiniz. Çünkü internette veya topluluklarda çoğu insan SUDO’yu
-
-Super User Do olarak bilir. Ama manual sayfasına da baktığımızda asıl amacının Switch User Do olduğunu göreceksiniz. Kandırıldık leennn. 
+Buraya not düşmek istiyorum, sudonun açılımını ve aslında ne amaçla kullanıldığını öğrendiğiniz zaman hayel kırıklığına uğrayabilirsiniz. Çünkü internette veya topluluklarda çoğu insan SUDO’yu Super User Do olarak bilir. Ama manual sayfasına da baktığımızda asıl amacının Switch User Do olduğunu göreceksiniz. Kandırıldık leennn. 
 
 ```bash
 $sudo -u mahmut ls /home/mahmut
@@ -36,7 +34,7 @@ w = 2 → 2^1
 
 x = 1 → 2^0
 
-- = 0
+\- = 0
 
 ```bash
 $chmod
@@ -71,7 +69,7 @@ Usage:
 >>
 sol kısmındaki inputu yani standart girdiyi sağ tarafdaki dosyaya ekler.
 Usage:
-	history > gecmis.back
+	history >> gecmis.back
 ```
 
 ```bash
